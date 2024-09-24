@@ -1,0 +1,99 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.container{
+    background-color: #f6ccf0;
+}
+.card-white {
+    background-color: white;
+    width: 600px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px #ed81dd;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.button-pink {
+    background-color:#ed81dd;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.button-pink:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border: 2px solid black;
+    color:#ed81dd;
+    transition: .5s;
+}
+h1{
+    font-size: 42px;
+    color: black;
+}
+.img-cercle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+h2 {
+    font-size: 24px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: rgb(30, 30,30);
+    display: inline-block;
+}
+img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin: 10px 5px;
+}
+.img-sm{
+    margin: 12px;
+    width: 80px;
+    height: 80px;
+}
+.img-sm:hover{
+    transform: scale(1.2);
+}
+.img-ballon{
+    margin: 12px;
+    width: 80px;
+    height: 80px;
+    perspective: 1000px;
+}
+.img-ballon:hover {
+    -webkit-transform: rotateX(90deg);
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}
+.list-inline{
+    list-style: none;
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .card-white {
+        width: 90%; 
+    }
+
+    h1 {
+        font-size: 2.5em; 
+    }
+
+    h2 {
+        font-size: 1.8em; 
+    }
+
+    h3 {
+        font-size: 1.3em; 
+    }
+}
